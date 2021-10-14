@@ -46,13 +46,14 @@
     #define ADS7828_REG_COMMAND_CH_DIFF_5_4     (0x60)      // Differential P = CH5, N = CH4
     #define ADS7828_REG_COMMAND_CH_DIFF_7_6     (0x70)      // Differential P = CH7, N = CH6
     #define ADS7828_REG_COMMAND_CH_SINGLE_0     (0x00)      // Single-ended P = CH0, N = COM
-    #define ADS7828_REG_COMMAND_CH_SINGLE_1     (0x10)      // Single-ended P = CH1, N = COM
-    #define ADS7828_REG_COMMAND_CH_SINGLE_2     (0x20)      // Single-ended P = CH2, N = COM
-    #define ADS7828_REG_COMMAND_CH_SINGLE_3     (0x30)      // Single-ended P = CH3, N = COM
-    #define ADS7828_REG_COMMAND_CH_SINGLE_4     (0x40)      // Single-ended P = CH4, N = COM
-    #define ADS7828_REG_COMMAND_CH_SINGLE_5     (0x50)      // Single-ended P = CH5, N = COM
-    #define ADS7828_REG_COMMAND_CH_SINGLE_6     (0x60)      // Single-ended P = CH6, N = COM
+    #define ADS7828_REG_COMMAND_CH_SINGLE_1     (0x40)      // Single-ended P = CH1, N = COM
+    #define ADS7828_REG_COMMAND_CH_SINGLE_2     (0x10)      // Single-ended P = CH2, N = COM
+    #define ADS7828_REG_COMMAND_CH_SINGLE_3     (0x50)      // Single-ended P = CH3, N = COM
+    #define ADS7828_REG_COMMAND_CH_SINGLE_4     (0x20)      // Single-ended P = CH4, N = COM
+    #define ADS7828_REG_COMMAND_CH_SINGLE_5     (0x60)      // Single-ended P = CH5, N = COM
+    #define ADS7828_REG_COMMAND_CH_SINGLE_6     (0x30)      // Single-ended P = CH6, N = COM
     #define ADS7828_REG_COMMAND_CH_SINGLE_7     (0x70)      // Single-ended P = CH7, N = COM
+
 
     #define ADS7828_REG_COMMAND_PD_MASK         (0x0C)      // Power-Down Selection
     #define ADS7828_REG_COMMAND_PD_PDADCONV     (0x00)      // Power Down Between A/D Converter Conversions
